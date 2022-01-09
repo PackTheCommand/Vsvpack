@@ -1,0 +1,47 @@
+┌─────────
+│ Vsvpack:
+└─────────
+
+
+Befehle:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+┌─
+│ from Vsvpack import file
+│ from Vsvpack import *
+│ 
+│ -->>test=data()
+└─
+
+┌─
+│ new_file(<[String]DateiPfad_zu_Ordner>,<[String]Dateiname_neue datei(ohne".pack")>,<True wenn Datei überschreiben,[True/False] False wenn datei nur überschrieben wenn Datei leer>)
+│ #>> Erstellt neue .pack file mit koreckten Parametern
+│ -->>test.new_file("C:/ordner","Dateiname",False)
+└─
+
+┌─
+│ add(<[String]DateiPfat(ohne".pack")>,<[String]Wert_Name>,<[String]Zu speicherner wert>):
+│ #>>Erstelt Speichervariable /Überschreibt bestehenden Wert mit neuem
+│ -->>test.add("C:/ordner/Dateiname","variable_test","ich bin eine variable")
+└─
+
+┌─
+│ read(<[String]DateiPfat(ohne".pack")>,<[String]Speichervariablen-name>):
+│ #>>Liest speicherwert einer Speichervariable aus
+│ -->>test.read("C:/ordner/Dateiname","variable_test")
+└─
+	
+┌─
+│ remove(<[String]DateiPfat(ohne".pack")>,<[String]zu entfernend Speichervariabl>,):
+│ #>>Entfernt Speichervariable und den ihr zugewiesenen wert
+│ -->>test.remove("C:/ordner/Dateiname","variable_test")
+└─
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+┌───────────────────┐
+│ Legende:          │
+│ [<>]=Datentype    │
+│ #>> = Funktion    │
+│ -->> = beispiel   │
+└───────────────────┘
