@@ -1,8 +1,8 @@
 """File"""
 import os
 import sys
-class data:
-    def new_pack(Parth_,name_new,Overwite_text):#Parth ,New pack name,Overwite_text
+class vsvpack:
+    def new(Parth_,name_new,Overwite_text):#Parth ,New pack name,Overwite_text
         #if (Parth_!=None):
         #    Os_Parth_Test = Parth_
 
