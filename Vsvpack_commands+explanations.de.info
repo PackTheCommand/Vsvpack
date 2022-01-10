@@ -8,11 +8,12 @@ Befehle:
 
 ┌─
 │ from Vsvpack import *
-│ -->>test=data()
+│ from Vsvpack import vsvpack
+│ -->>test=pack()
 └─
 
 ┌─
-│ new_pack(<[String]DateiPfad_zu_Ordner>,<[String]Dateiname_neue datei(ohne".pack")>,<True wenn Datei überschreiben,[True/False] False wenn datei nur überschrieben wenn Datei leer>)
+│ new(<[String]DateiPfad_zu_Ordner>,<[String]Dateiname_neue datei(ohne".pack")>,<True wenn Datei überschreiben,[True/False] False wenn datei nur überschrieben wenn Datei leer>)
 │ #>> Erstellt neue .pack file mit koreckten Parametern
 │ -->>test.new_file("C:/ordner","Dateiname",False)
 └─
