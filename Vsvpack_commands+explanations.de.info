@@ -13,7 +13,7 @@ Befehle:
 └─
 
 ┌─
-│ new(<[String]DateiPfad_zu_Ordner>,<[String]Dateiname_neue datei(ohne".pack")>,<True wenn Datei überschreiben,[True/False] False wenn datei nur überschrieben wenn Datei leer>)
+│ new(<[String]DateiPfad_zu_Ordner(ACHTUNG:benötigt absoluten pfad)>,<[String]Dateiname_neue datei(ohne".pack")>,<True wenn Datei überschreiben,[True/False] False wenn datei nur überschrieben wenn Datei leer>)
 │ #>> Erstellt neue .pack file mit koreckten Parametern
 │ -->>test.new("C:/ordner","Dateiname",False)
 └─
