@@ -177,4 +177,22 @@ class vsvpack:
                 v+=1
                 y -= 1
         else:
-            print("WARNING: selected file is not declerated corecktly as '.pack' file,(in line 0 missing:@code=not_deletable)")
+            print("WARNING: selected file is not declerated corecktly as '.pack'-file\n ,(in line 0 of the file missing:@code=not_deletable)")
+class absoluteScriptFolderPath:
+    #Note: .get must alwais be .get(__file__) ,else it won't work !!
+    def get(self,type__file__):
+        filepath = type__file__
+
+        t = filepath.split("\\")
+        removeName = filepath.split("\\")[-1]
+        t.remove(removeName)
+        usableFilePath = ""
+        firstwhothout = False
+        for word in t:
+            if firstwhothout:
+                usableFilePath = usableFilePath + "\\" + word
+            else:
+                usableFilePath = usableFilePath + word
+                firstwhothout = True
+        return usableFilePath
+
