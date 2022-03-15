@@ -1,0 +1,2 @@
+-vsvpack has the file-parth now as a static value
+-addet deleding method (only beta,not finished jet)
