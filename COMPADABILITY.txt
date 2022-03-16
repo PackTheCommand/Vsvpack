@@ -1,0 +1,2 @@
+WARNING:
+-Some engens might Have an Problems with the class "absoluteScriptFolderPath()" cused by the engene not outputing __file__ in the coreckt sintax (only th filename)
